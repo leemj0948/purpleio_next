@@ -12,7 +12,7 @@ const Header = () => {
           <a>SHOP</a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a>ABOUT</a>
         </Link>
         <Link href="/">
           <a>STORE</a>
@@ -42,10 +42,10 @@ const Header = () => {
         }
         a {
           text-decoration: none;
-          font-weight: 700;
           color: #212529;
           cursor: pointer;
           font-size: 1.2rem;
+          font-weight: 900;
         }
         a:visited {
           color: #212529;

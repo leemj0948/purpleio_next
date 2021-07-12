@@ -8,6 +8,7 @@
  */
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["pages/_error"],{
 
+<<<<<<< HEAD
 /***/ "./node_modules/next/dist/next-server/lib/amp-context.js":
 /*!***************************************************************!*\
   !*** ./node_modules/next/dist/next-server/lib/amp-context.js ***!
@@ -52,6 +53,8 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\n\n\nvar 
 
 /***/ }),
 
+=======
+>>>>>>> 5f82fdd176160df96a82c0f7d39270abecedbdc2
 /***/ "./node_modules/next/dist/pages/_error.js":
 /*!************************************************!*\
   !*** ./node_modules/next/dist/pages/_error.js ***!
