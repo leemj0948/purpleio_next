@@ -18,6 +18,12 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `
+            @import url("https://kit.fontawesome.com/d5b1a678f1.js" crossorigin="anonymous");`,
+            }}
+          />
           <title>My page</title>
           {this.props.styleTags}
         </Head>
