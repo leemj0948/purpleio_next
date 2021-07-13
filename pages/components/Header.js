@@ -29,7 +29,7 @@ const Header = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 0 2rem;
+          margin: 1.5vw 2rem;
         }
         .menu {
           display: flex;
@@ -39,6 +39,7 @@ const Header = () => {
         }
         .title {
           color: #464e9d;
+          font-size: 1.75rem;
         }
         a {
           text-decoration: none;
