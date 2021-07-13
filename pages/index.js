@@ -9,28 +9,33 @@ import axios from 'axios';
 const Index = ({ data }) => {
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
-
+  const [clickId,setClickId] = useState('')
+  function handleShow(id) {
+    setClickId(data[id-1])
+    setShow(true);
+  }
   return (
     <Layout>
       <div className="form">
         <div className="listTitle">STORE</div>
         <div className="lists">
-          {data.map((data, idx) => {
+          {data.map((data) => {
+            const {id,thumb} = data
             return (
-              <Figure key={idx}>
+              <Figure key={id}>
                 <Figure.Image
                   width={180}
                   height={180}
                   alt="171x180"
-                  src={data.thumb}
+                  src={thumb}
                   style={ListStyle}
-                  onClick={() => handleShow(v)}
+                  onClick={() => handleShow(id)}
                 />
               </Figure>
             );
           })}
         </div>
-        <ModalOption />
+        <ModalOption show={show} setShow={setShow} fullscreen={fullscreen} clickId={clickId}/>
       </div>
       <style jsx>{`
         .form {
@@ -73,9 +78,6 @@ Index.getInitialProps = async function () {
   };
 };
 
-function handleShow(breakpoint) {
-  setFullscreen(breakpoint);
-  setShow(true);
-}
+
 
 export default Index;
