@@ -29,7 +29,7 @@ const Header = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 1.5vw 2rem;
+          margin: 1.5vw 3rem 5vw;
         }
         .menu {
           display: flex;
@@ -56,6 +56,7 @@ const Header = () => {
           height: 3.1rem;
           cursor: pointer;
         }
+        
       `}</style>
     </section>
   );

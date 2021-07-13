@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Layout from './components/Layout';
 import Figure from 'react-bootstrap/Figure';
 import ModalOption from './components/ModalOption';
+import Bar from './components/Bar';
 
 import axios from 'axios';
 
@@ -16,6 +17,7 @@ const Index = ({ data }) => {
   }
   return (
     <Layout>
+      <Bar text='STORE'/>
       <div className="form">
         <div className="listTitle">STORE</div>
         <div className="lists">

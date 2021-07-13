@@ -1,7 +1,9 @@
 import Layout from './components/Layout';
+import Bar from './components/Bar';
 
 const About = () => (
   <Layout>
+    <Bar text ='ABOUT'/>
     <body>
     <h1 >간단한 프로젝트 소개</h1>
     <div className="intro">
