@@ -15,3 +15,4 @@ react-bootstrap
 2. map을 활용한 카드 리스트 구현 
 3. react-bootstrap 을 활용한 모달창 구현 
 4. json-server를 활용한 데이터 구축 
+5. styled jsx 이용한 css 구현 
