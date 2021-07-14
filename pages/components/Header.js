@@ -5,10 +5,10 @@ const Header = () => {
     <section className="form">
       <h1 className="title">AWESOME FOOD STORE</h1>
       <h2 className="menu">
-        <Link href="/">
+        <Link href="/error">
           <a>PLAY</a>
         </Link>
-        <Link href="/">
+        <Link href="/error">
           <a>SHOP</a>
         </Link>
         <Link href="/about">
@@ -29,7 +29,7 @@ const Header = () => {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 1.5vw 2rem;
+          margin: 1.5vw 3rem 5vw;
         }
         .menu {
           display: flex;

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { FACEBOOK } from './icons';
 import { INSTARGRAM } from './icons';
 
