@@ -11,7 +11,7 @@ NEXT.js
 react-bootstrap 
 
 # 기능구현 사항 🌟
-settimeout을 이용한 오류 페이지 메인으로 이동 💫
-map을 활용한 카드 리스트 구현 
-react-bootstrap 을 활용한 모달창 구현 
-json-server를 활용한 데이터 구축 
+1. settimeout을 이용한 오류 페이지 메인으로 이동 💫
+2. map을 활용한 카드 리스트 구현 
+3. react-bootstrap 을 활용한 모달창 구현 
+4. json-server를 활용한 데이터 구축 
