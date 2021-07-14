@@ -5,10 +5,10 @@ const Header = () => {
     <section className="form">
       <h1 className="title">AWESOME FOOD STORE</h1>
       <h2 className="menu">
-        <Link href="/">
+        <Link href="/error">
           <a>PLAY</a>
         </Link>
-        <Link href="/">
+        <Link href="/error">
           <a>SHOP</a>
         </Link>
         <Link href="/about">
@@ -56,7 +56,6 @@ const Header = () => {
           height: 3.1rem;
           cursor: pointer;
         }
-        
       `}</style>
     </section>
   );
